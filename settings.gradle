@@ -1,0 +1,23 @@
+//pluginManagement {
+//    repositories {
+//        gradlePluginPortal()
+//        google()
+//        mavenCentral()
+//    }
+//}
+//dependencyResolutionManagement {
+//    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+//    repositories {
+//        google()
+//        mavenCentral()
+//    }
+//}
+
+plugins {
+    id "com.gradle.enterprise" version "3.7.2"
+}
+
+rootProject.name = "InjectorSample"
+include ':app'
+include ':dll'
+include ':dll_settings'
